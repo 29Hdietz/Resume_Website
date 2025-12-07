@@ -1,0 +1,109 @@
+#mainContent {
+    display: flex;          
+    gap: 10px;            
+    align-items: stretch;  
+    min-height: 100vh;      
+}
+ #rightBar {
+       flex: 1;                
+    background-color: rgb(84, 97, 84);
+    padding: 20px;
+    overflow: auto;        
+    border-radius: 10px;
+}
+
+#Rightbar p {
+  padding: 10px;
+  color: rgb(207, 207, 207);
+}
+
+#Rightbar h2{
+  padding: 10px;
+  color: rgb(207, 207, 207);
+}
+
+#Rightbar ul{
+  padding: 10px;
+  color: rgb(207, 207, 207);
+  font-size: 1.3rem;
+}
+
+#Rightbar a{
+    color: rgb(209, 186, 144);
+    font-size: 20pt;
+}
+
+#signin {
+    font-size: 16pt !important;
+    color: rgb(209, 186, 144) !important;
+}
+
+  #leftBar {
+     flex: 0 0 25%;         
+    background-color: rgb(41, 55, 82);
+    padding: 30px;
+    color: aliceblue;
+    border-radius: 10px;
+    
+  }
+
+  #leftBar p {
+    color: aliceblue;
+    font-size: 11pt;
+    margin-left: 2%;
+    margin-bottom: 2px;
+  }
+
+  #leftBar h1 {
+    color: aliceblue;
+    font-size: 18pt;
+  }
+
+  #profilePic{
+    width: 80%;
+    margin: 20px;
+    margin-left:10%;
+    border-radius: 50%;
+  }
+
+  .container { 
+    background-color: rgb(192, 192, 192); 
+    width: 80%; 
+    border-radius: 15px; 
+    margin-left: 2% ;
+} 
+
+.skill { 
+    background-color: rgb(224, 184, 3); 
+    color: rgb(0, 0, 0); 
+    padding: 1%; 
+    text-align: right; 
+    font-size: 10pt; 
+    font-weight: bold;
+    border-radius: 15px; 
+} 
+
+.html { 
+    width: 90%; 
+} 
+
+.php { 
+    width: 60%; 
+} 
+
+.Python { 
+    width: 80%; 
+} 
+.Java { 
+    width: 95%; 
+} 
+.English { 
+    width: 100%; 
+} 
+.Spanish { 
+    width: 60%; 
+} 
+.Enthusiasm{
+    width: 110%;
+}
+

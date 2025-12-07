@@ -1,0 +1,181 @@
+body {
+    margin: 0px;
+    background-color: rgb(236, 236, 236);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+  }
+  .navbar ul {
+    list-style-type: none;
+    background-color: rgb(84, 97, 84);
+    padding: 5px;
+    margin-left: 1%;
+    margin-right: 60%;
+    overflow: hidden;
+    
+  }
+  .navbar a {
+    color: white;
+    text-decoration: none;
+    padding: 15px;
+    display: block;
+    text-align: center;
+  }
+
+  .navbar a:hover{
+    background-color: rgb(170, 80, 0);
+  }
+  .navbar li{
+    float: left;
+  }
+ /* -------------------------------------------------------- */
+  
+  .contact ul {
+    list-style-type: none;
+    background-color: rgb(110, 110, 110);
+    padding: 0px;
+    margin: 0px;
+    overflow: hidden;
+   
+  }
+  .contact li{
+    color: white;
+    background-color: rgb(43, 43, 43);
+    text-decoration: none;
+    padding: 5px;
+    display:inline-block;
+    text-align: center;
+    justify-content: left;
+    margin: 0px;
+  }
+  .contact a{
+    color: white;
+    text-decoration: none;
+  }
+ 
+  .contact a:hover{
+    color: rgb(170, 80, 0);
+  }
+  #footer
+  {
+   
+    margin-top: 30px;
+    height: auto;
+    width: 100%;
+    float: right;
+    
+  }
+  
+ /* -------------------------------------------------------- */
+/* Main content container */
+main {
+  clear: both; /* Ensure no floated elements affect the layout */
+  width: 90%;      /* Set a maximum width */
+  height: 100%;
+  margin: 40px auto;     /* Center the form and add spacing */
+  padding: 40px;
+  padding-bottom: 6%;
+  background-color: #f9f9f9;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+
+  /* Hero picture image */
+  #HeroPic{
+    width: 100%;       /* Ensure the image scales within the container */
+    height: 329px;          /* Maintain aspect ratio */
+    display: block;        /* Remove any inline spacing issues */
+  }
+
+  hr {
+    height: 1px;
+    color: rgb(0, 0, 0);
+  }
+  
+  h1 {
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 0px;
+  }
+  h2{
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding-top: 15px;
+    font-size: 20pt;
+  }
+  h4 {
+    color: rgb(20, 20, 20);
+   text-align: center;
+   font-size: 14pt;
+
+  }
+  h5 {
+    color: rgb(170, 80, 0);
+   text-align: center;
+   font-size: 14pt;
+  }
+#signinheader{
+    width: 100%;
+    height: auto;
+    background-color: rgb(84, 97, 84);
+}
+
+#signinheader h1{
+  
+    color:aliceblue;
+    padding: 5px;
+}
+#SIfooter
+{
+    width: 100%;
+    height: auto;
+    padding: 2px;
+    padding-left: 10px;
+    background-color: rgb(84, 97, 84);
+    color: aliceblue;
+}
+  .continue 
+  {
+    text-align: center;
+    margin: 50 px;
+    
+  }
+  .continue a {
+    background-color: rgb(54, 54, 54);
+    padding: 10px;
+    color: aliceblue;
+    text-decoration: none;
+  }
+
+  .continue a:hover {
+    color: rgb(0, 1, 2);
+    
+    background-color: rgb(170, 80, 0);
+    text-decoration: none;
+  }
+  #filler{
+    width: 100%;
+    height:250px;
+  }
+  
+  p {
+    font-family: verdana;
+    font-size: 20px;
+  }
+    form {
+      background-color: rgb(84, 97, 84);
+      color: white;
+      padding: 40px;
+      font-size: 14pt;
+      margin: 20px 0; /* Add vertical spacing */
+      border-radius: 8px;
+  }
+  input {
+    padding: 5px;
+    margin: 8px;
+    margin-left: 15px;
+    background-color: 170, 80, 0;
+  }
